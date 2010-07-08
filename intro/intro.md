@@ -1,11 +1,15 @@
 # unfiltered
 
-a scala web tool kit
+a scala web toolkit
 
 !SLIDE
 
-HTTP
-state(less)
+Hi I'm HTTP.
+
+!SLIDE
+
+
+I'm stateless.
 
 !SLIDE
 

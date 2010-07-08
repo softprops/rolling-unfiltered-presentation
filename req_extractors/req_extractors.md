@@ -6,11 +6,9 @@ request extractors
 
 !SLIDE
 
-
-    def unapply(something: Something): (
-      Somethingelse, HttpServletRequest
-    )    
-
+<div class="hc">
+    def unapply(something: Something): (<strong>Somethingelse</strong>, HttpServletRequest)    
+</div>
 !SLIDE
 <div class="hc">
 <span class="ex">GET</span>, <span class="ex">POST</span>, <span class="ex">PUT</span>, <span class="ex">DELETE</span>, <span class="ex">HEAD</span>
