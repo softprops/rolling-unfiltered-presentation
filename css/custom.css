@@ -1,0 +1,18 @@
+body { font-size:94px;  }
+.hc {
+  font-size:34px; 
+  text-align:left; 
+  font-family:monaco, monospace; 
+  font-weight:normal;
+}
+
+.sub {
+  font-size:24px;
+}
+ul, .support {
+  font-size:34px;
+}
+strong { color:#FF1385; }
+.ex { color:#12A0FF; }
+.comment {color:#ccc;}
+ul {list-style:none; }
