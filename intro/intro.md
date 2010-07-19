@@ -1,15 +1,12 @@
+!SLIDE
+
 # unfiltered
 
-a scala web toolkit
+a <strong>scala</strong> web toolkit
 
 !SLIDE
 
-Hi I'm HTTP.
-
-!SLIDE
-
-
-I'm stateless.
+Hi, I'm HTTP. I'm stateless. Who are you?
 
 !SLIDE
 

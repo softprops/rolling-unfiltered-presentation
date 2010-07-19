@@ -1,7 +1,9 @@
+!SLIDE 
+
 the wilderness
 
  * [sxr sourced](http://github.com/softprops/sxr-sourced) sxr source host
- * [sling](http://github.com/n8han/sling) md in the front couchdb in the back
+ * [sling](http://github.com/n8han/sling) markdown in the front couchdb in the back
  * [sbin](http://github.com/softprops/sbin) simple pastebin with redis in the back
  * [picture show](http://github.com/softprops/picture-show) let it slide
  * more up the pipe

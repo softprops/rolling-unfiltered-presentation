@@ -1,4 +1,6 @@
-pause
+!SLIDE
+
+pause. what are requests anyway?
 
 !SLIDE
 
@@ -44,23 +46,23 @@ unfiltered <strong>plans</strong> are partial functions
 <div class="hc">
   type ResponseFunction = <br/>&nbsp;&nbsp;HttpServletResponse => HttpServletResponse
 </div>
-
-
-
 <div class="hc">
   PartialFunction[<strong>HttpServletRequest</strong>, ResponseFunction]
 </div>
 
 !SLIDE
+  
+<div class="hc">/** as a class */
+class App extends unfiltered.Planify(<strong>{
+  case GET(Path("/", _)) => ResponseString("hola friend")
+}</strong>)
+</div>
 
-    /** as a class */
-    class App extends unfiltered.Planify({
-      case GET(Path("/", _)) => ResponseString("hola friend")
-    })
-    
-    /** as a trait */
-    class App extends Stuff with unfiltered.Plan {
-      def filter = {
-        case GET(Path("/", _)) => ResponseString("hola friend")
-      }
-    }
+<div class="hc">
+/** as a trait */
+class App extends Stuff with unfiltered.Plan {
+  def filter = <strong>{
+    case GET(Path("/", _)) => ResponseString("hola friend")
+  }</strong>
+}
+</div>

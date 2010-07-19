@@ -1,9 +1,10 @@
-body { font-size:94px;  }
+body {   }
 .hc {
   font-size:34px; 
   text-align:left; 
   font-family:monaco, monospace; 
   font-weight:normal;
+  white-space:pre;
 }
 
 .sub {

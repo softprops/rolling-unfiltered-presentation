@@ -1,3 +1,5 @@
+!SLIDE
+
 abstraction thru extraction 
 
 !SLIDE
@@ -5,35 +7,27 @@ abstraction thru extraction
 request extractors
 
 !SLIDE
-
-<div class="hc">
-    def unapply(something: Something): (<strong>Somethingelse</strong>, HttpServletRequest)    
+<div class="hc"><span class="comment">// the ghost in the compiler</span>
+def unapply(x: <strong>X</strong>): (<strong>Y</strong>, HttpServletRequest)    
 </div>
 !SLIDE
-<div class="hc">
-<span class="ex">GET</span>, <span class="ex">POST</span>, <span class="ex">PUT</span>, <span class="ex">DELETE</span>, <span class="ex">HEAD</span>
+<div class="hc"><span class="ex">GET</span>(_), <span class="ex">POST</span>(_), <span class="ex">PUT</span>(_), <span class="ex">DELETE</span>(_), <span class="ex">HEAD</span>(_)
 </div>
 !SLIDE
-<div class="hc">
-  <span class="ex">Path</span>(<strong>"/hello"</strong>, req)
+<div class="hc"><span class="ex">Path</span>(<strong>"/hello"</strong>, _)
 </div>
 !SLIDE
-<div class="hc">
-  <span class="ex">Seg</span>(<strong>"have" :: "a" :: what :: when :: Nil</strong>, req)
+<div class="hc">Path(<span class="ex">Seg</span>(<strong>"have" :: "a" :: what :: when :: Nil</strong>), _)
 </div>
 !SLIDE
-<div class="hc">
-  <span class="ex">Params</span>(<strong>params</strong>, req) <span class="comment">// Map[String, Seq[String]] </span>
+<div class="hc"><span class="ex">Params</span>(<strong>params</strong>, _) <span class="comment">// Map[String, Seq[String]] </span>
 </div>
 !SLIDE
-<div class="hc">
-  <span class="ex">InStream</span>(<strong>in</strong>, req)
+<div class="hc"><span class="ex">InStream</span>(<strong>in</strong>, _)
 </div>
 !SLIDE
-<div class="hc">
-  <span class="ex">Reader</span>(<strong>r</strong>, req)
+<div class="hc"><span class="ex">Reader</span>(<strong>r</strong>, _)
 </div>
 !SLIDE
-<div class="hc">
-  <span class="ex">BasicAuth</span>(<strong>creds</strong>, req)
+<div class="hc"><span class="ex">BasicAuth</span>(<strong>creds</strong>, _)
 </div>

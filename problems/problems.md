@@ -1,3 +1,5 @@
+!SLIDE
+
 Problem: 
 
     HEAD /$#!Kittens*^! HTTP/1.1
@@ -17,8 +19,8 @@ frameworks
 def framework:
 
  * solve many problems around a given domain
- * monolithic systems ++ :)
- * simple problems -- :(
+ * monolithic systems :)
+ * simple problems :(
 
 !SLIDE
 
@@ -28,12 +30,12 @@ toolkits
 
 def toolkit:
 
- * loosly coupled components that can be composed to solve different problems
- * monolithic systems +- :|
- * simple problems ++ :)
+ * loosly coupled <strong>components</strong> that can be <strong>composed</strong> to solve different problems
+ * monolithic systems :|
+ * simple problems \\\\('.')~
  
 !SLIDE
 
 Problem:
 
- * lots of frameworks, few toolkits
+ * seamingly lots of frameworks, few toolkits
