@@ -1,4 +1,4 @@
-body {   }
+body {  font-size:94px;  }
 .hc {
   font-size:34px; 
   text-align:left; 
@@ -6,7 +6,7 @@ body {   }
   font-weight:normal;
   white-space:pre;
 }
-
+.container {  }
 .sub {
   font-size:24px;
 }
@@ -17,3 +17,5 @@ strong { color:#FF1385; }
 .ex { color:#12A0FF; }
 .comment {color:#ccc;}
 ul {list-style:none; }
+
+blockquote { font-family:georgia; font-style:italic; }

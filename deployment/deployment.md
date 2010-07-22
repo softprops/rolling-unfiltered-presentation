@@ -34,6 +34,10 @@ Jetty under the covers
 
     object Server {
       def main(args: Array[String]) {
-        server.Http(8080) filter(Planify { ... }) start
+        server.Http(8080)
+          .filter(Planify { ... })
+          .filter(Planify { ... })
+          .resources(getClass.getResouce("path/to/rsrc"))
+          .start
       }
     }

@@ -1,20 +1,26 @@
 !SLIDE
 
-pause. what are requests anyway?
+(pause) 
+
+what are requests anyway?
 
 !SLIDE
 
-requests == patterns
+requests ~ patterns
 
 !SLIDE
 
-Scala <strong>&hearts;</strong>'s matching patterns
+Scala <strong>&hearts;</strong>'s
 
+pattern matching    
+    
+!SLIDE
     val me = person match {
       case Person("doug", _)  => true
       case _ => false
     }
-    
+
+!SLIDE
     def act() {
       loop {
         react {
@@ -23,10 +29,14 @@ Scala <strong>&hearts;</strong>'s matching patterns
         }
       }
     }
-    
+
 !SLIDE
 
-unfiltered <strong>&hearts;</strong>'s matching request patterns
+unfiltered <strong>&hearts;</strong>'s
+
+matching 
+
+request patterns
 
 !SLIDE
 
@@ -34,7 +44,10 @@ Scala <strong>&hearts;</strong>'s &fnof;p
 
 !SLIDE
 
-everything is a &fnof;()
+&fnof;per's (cool kids) say
+
+
+> &ldquo;everything is a &fnof;()
 
 !SLIDE
 

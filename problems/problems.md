@@ -19,6 +19,7 @@ frameworks
 def framework:
 
  * solve many problems around a given domain
+ * sometimes sold with kitchen sinks
  * monolithic systems :)
  * simple problems :(
 
@@ -31,11 +32,12 @@ toolkits
 def toolkit:
 
  * loosly coupled <strong>components</strong> that can be <strong>composed</strong> to solve different problems
+ * _micro_ frameworks
  * monolithic systems :|
- * simple problems \\\\('.')~
+ * simple problems `\('.')~`
  
 !SLIDE
 
 Problem:
 
- * seamingly lots of frameworks, few toolkits
+ * seamingly lots of frameworks, few toolkits (on the jvm)
