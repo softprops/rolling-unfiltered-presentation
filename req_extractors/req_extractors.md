@@ -18,7 +18,6 @@ extractors?
 <span class="comment">// the ghost in the compiler</span>
 def unapply(x: X): Y
 </div>
-
 <div class="hc">
 <span class="comment">// imagine this...</span>
 subject match { 
@@ -26,7 +25,6 @@ subject match {
   case _ => None 
 }
 </div>
-
 <div class="hc">
 <span class="comment">// as this in reverse (returns Some(y) or None)</span>
 SomeExtractor.unapply(subject) 
@@ -59,14 +57,14 @@ def unapply(x: <strong>X</strong>): (<strong>Y</strong>, HttpServletRequest)
 <div class="hc"><span class="ex">Reader</span>(<strong>r</strong>, _)
 </div>
 !SLIDE
-<div class="hc"><span class="ex">BasicAuth</span>(<strong>creds</strong>, _) => {
+<div class="hc"><span class="ex">BasicAuth</span>(<strong>creds</strong>, _) => creds match {
   case ("jane", "j@n3") => <span class="comment">// jane stuff</span>
   case ("jim", "j1m") =>   <span class="comment">// jim stuff</span>
   case _ =>                <span class="comment">// default stuff</span>
 }
 </div>
 !SLIDE
-<div class="hc"><span class="ex">Accepts</span>(<strong>fmt</strong>, _) => {
+<div class="hc"><span class="ex">Accepts</span>(<strong>fmt</strong>, _) => fmt match {
   case 'json => <span class="comment">// json stuff</span>
   case 'xml =>  <span class="comment">// xml stuff</span>
   case _ =>     <span class="comment">// otherwise default stuff</span>

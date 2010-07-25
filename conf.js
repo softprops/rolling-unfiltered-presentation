@@ -8,7 +8,6 @@
     "responses",
     "testing",
     "deployment",
-    "examples",
     "apps",
     "fin"
   ]

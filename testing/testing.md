@@ -1,7 +1,7 @@
 !SLIDE
 (raises hand)
 
-how do we test?
+How do we test?
 
 !SLIDE
 
@@ -11,7 +11,12 @@ simple
 
 !SLIDE
 
-  we like dispatch :/(":)")
+having nice complements 
+
+is a plus
+
+
+<span class="ex">:/(</span>":)"<span class="ex">)</span> 
   
 !SLIDE
 
@@ -60,5 +65,6 @@ simple
              ("Content-Type" -> Set(
                "application/json; charset=utf-8")))
           body must_=="""{"bread":"toasted"}"""
+        }
       }
     }

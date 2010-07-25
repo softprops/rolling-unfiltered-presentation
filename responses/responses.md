@@ -23,7 +23,18 @@ class ChainResponse(f: ResponseFunction) extends Responder {
   def respond(res: R) = f(res)
 }
 </div>
+
 !SLIDE
+
+Don't worry. 
+
+They're just functions.
+
+!SLIDE
+    type ResponseFunction = R => R
+
+!SLIDE
+
 <div class="hc"><span class="ex">ResponseString</span>("what evs")
 </div>
 
@@ -45,6 +56,11 @@ class ChainResponse(f: ResponseFunction) extends Responder {
 
 !SLIDE
 <div class="hc"><span class="ex">Pass</span>*</div>
+
+!SLIDE
+<div class="hc"><span class="ex">PassAndThen</span> after {
+  case _ => <span class="comment">// do stuff afterwards</span>
+}</div>
 
 !SLIDE
 why &fnof;n's
