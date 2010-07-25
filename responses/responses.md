@@ -52,6 +52,9 @@ why &fnof;n's
 !SLIDE
 &fnof;n's compose
 
+![compose](responses/debussy.jpg "compose")
+
 !SLIDE
-<div class="hc"><span class="ex">ResponseString</span>("what evs") ~> <span class="ex">Ok</span> ~> <span class="ex">ETag</span>(obj.hash)
+<div class="hc"><span class="ex">ResponseString</span>("what evs") ~> <span class="ex">Ok</span> ~> <span class="ex">ETag</span>(obj.hash) ~>
+   <span class="ex">ResponseHeader</span>("x-runtime", TimeFrom(start) :: Nil)
 </div>

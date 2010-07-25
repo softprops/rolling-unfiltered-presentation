@@ -6,6 +6,7 @@
     "pattern_matching",
     "req_extractors",
     "responses",
+    "testing",
     "deployment",
     "examples",
     "apps",
