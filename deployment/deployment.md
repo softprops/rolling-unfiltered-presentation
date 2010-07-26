@@ -62,7 +62,7 @@ Jetty under the covers
     }
 
 !SLIDE
-but if you really want to...
+but, if you really need to...
 
 !SLIDE
 

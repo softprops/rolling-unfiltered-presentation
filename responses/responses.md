@@ -59,7 +59,7 @@ They're just functions.
 
 !SLIDE
 <div class="hc"><span class="ex">PassAndThen</span> after {
-  case _ => <span class="comment">// do stuff afterwards</span>
+  case _ => <span class="comment">// do stuff after next filter is done</span>
 }</div>
 
 !SLIDE

@@ -41,11 +41,8 @@ def unapply(x: <strong>X</strong>): (<strong>Y</strong>, HttpServletRequest)
 <div class="hc"><span class="ex">Path</span>(<strong>"/hello"</strong>, _)
 </div>
 !SLIDE
-<div class="hc">Path(<span class="ex">Seg</span>(<strong>"have" :: "a" :: what :: when :: Nil</strong>), _) => {
-  case _ => ResponseString(
-    "oh really? having a %s on %s" format(what, when)
-  )
-}
+<div class="hc">Path(<span class="ex">Seg</span>(<strong>"have" :: "a" :: what :: when :: Nil</strong>), _) =>
+  ResponseString("oh really? having a %s on %s" format(what, when))
 </div>
 !SLIDE
 <div class="hc"><span class="ex">Params</span>(<strong>params</strong>, _) <span class="comment">// Map[String, Seq[String]] </span>

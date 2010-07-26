@@ -11,12 +11,7 @@ simple
 
 !SLIDE
 
-having nice complements 
-
-is a plus
-
-
-<span class="ex">:/(</span>":)"<span class="ex">)</span> 
+polite libraries complement 
   
 !SLIDE
 

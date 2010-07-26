@@ -67,14 +67,14 @@ def toolkit:
 def toolkit:
 
 * loosly coupled <strong>components</strong> that can be <strong>composed</strong> to solve different problems
-* _micro_ frameworks
+* the _micro_ frameworks
 
 !SLIDE
 
 def toolkit:
 
  * loosly coupled <strong>components</strong> that can be <strong>composed</strong> to solve different problems
- * _micro_ frameworks
+ * the _micro_ frameworks
  * monolithic systems :|
 
 
@@ -83,7 +83,7 @@ def toolkit:
 def toolkit:
 
  * loosly coupled <strong>components</strong> that can be <strong>composed</strong> to solve different problems
- * _micro_ frameworks
+ * the _micro_ frameworks
  * monolithic systems :|
  * simple problems `\('.')~`
  
