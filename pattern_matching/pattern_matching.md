@@ -6,7 +6,7 @@ what are requests anyway?
 
 !SLIDE
 
-requests ~ patterns
+requests are patterns
 
 !SLIDE
 
@@ -15,7 +15,7 @@ Scala <strong>&hearts;</strong>'s
 pattern matching    
     
 !SLIDE
-    val me = person match {
+    val isDoug = person match {
       case Person("doug", _)  => true
       case _ => false
     }
