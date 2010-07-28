@@ -45,12 +45,14 @@ Jetty under the covers
 !SLIDE
     package treasure
     class Maps extends unfiltered.Planify({
-      case GET(Path("/", BasicAuth(creds, _))) => creds match {
-        case ("doug", "d0ug") => 
-          ResponseString("~treasure map~") ~> Ok
-        case _ => 
-          WWWAuthenticate("Basic realm=\"/\"") ~> Unauthorized
-      }
+      case GET(Path("/", BasicAuth(creds, _))) => 
+        creds match {
+          case ("doug", "d0ug") => 
+            ResponseString("~treasure map~") ~> Ok
+          case _ => 
+            WWWAuthenticate("Basic realm=\"/\"") ~> 
+              Unauthorized
+        }
     })
 
 !SLIDE
@@ -73,7 +75,6 @@ but, if you really need to...
     <web-app>
       <filter>
         <filter-name>Maps</filter-name>
-        <display-name>Map Filter</display-name>
         <filter-class>treasure.Maps</filter-class>
       </filter>
       <filter-mapping>

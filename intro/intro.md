@@ -3,6 +3,8 @@
 
 a <strong>scala</strong> web toolkit
 
+    @softprops
+
 !SLIDE
 
 Hi, I'm 

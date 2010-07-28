@@ -10,10 +10,11 @@ before we part
 
 !SLIDE
 
-(un)veiled @ <a href="#">github.com/n8han/Unfiltered</a>
+(un)veiled @ <a href="#">github.com/n8han/
+  Unfiltered</a>
 
-  questions? 
+    questions? 
   
-  heckling? 
+    heckling? 
   
-  coding?
+    coding?

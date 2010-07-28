@@ -1,7 +1,6 @@
 {
   "title": "unfiltered - a scala web tool kit",
   "sections": [
-    "cakeshop",
     "intro",
     "problems",
     "pattern_matching",

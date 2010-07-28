@@ -6,6 +6,7 @@ the wilderness
  * [sling](http://github.com/n8han/sling) markdown in the front couchdb in the back
  * [sbin](http://github.com/softprops/sbin) simple pastebin with redis in the back
  * [picture show](http://github.com/softprops/picture-show) let it slide
+ * [unfiltered template](http://github.com/softprops/unfiltered-template) bare minimum
  * more up the pipe
  
 !SLIDE
